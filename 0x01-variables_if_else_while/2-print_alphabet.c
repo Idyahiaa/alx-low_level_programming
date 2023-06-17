@@ -8,8 +8,8 @@
 int main()
 {
 	char alphabet = 'A';
-	
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 		putchar(alphabet);
+		putchae('\n');
 	return (0);
 }
