@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - entry point 
  *
@@ -9,7 +10,7 @@
 
 int main(void)
 {
-	char chn[] ="_putchar";
+	char chn[] = "_putchar";
 	int c;
 
 	for (c=0; c <= 8; c++)
