@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * main - entry point 
  *
- * Desciption : print _putchar using _putchar prototype
+ * main - entry 
  *
- * Return: Alwasy 0 SUCCESS 
+ * Description : print _putchar with putchar prototype
+ *
+ * return always 0 success
  */
 
 int main(void)
 {
-	char chn[] = "_putchar";
+	char chaine[] = "_putcha";
 	int c;
 
-	for (c=0; c <= 8; c++)
-		_putchar(chn[c]);
+	for (c = 0; c <=8; c++)
+		_putchar(chaine[c]);
 	_putchar("\n");
-	
-	return 0
-}
+
+	return (0);
