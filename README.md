@@ -1,1 +1,1 @@
-this repo if for working on C language 
+this is is readme file in the fonctionsnad nestedloops dir
