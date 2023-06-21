@@ -1,9 +1,7 @@
-#include "main.h"
+#include"main.h"
 
 /**
- *
  * Description : print alphabet  with putchar print_alphabet
- *
  */
 void print_alphabet(void);
 {
