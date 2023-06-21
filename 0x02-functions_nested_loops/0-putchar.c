@@ -1,12 +1,20 @@
-#include <stdio.h>
-#include _putchar.c
+#include "main.h"
 /**
- * main - Entry point
+ * main - entry point 
  *
- * Return: Always 0 (Success)
+ * Desciption : print _putchar using _putchar prototype
+ *
+ * Return: Alwasy 0 SUCCESS 
  */
+
 int main(void)
 {
-	_putchar("_putchar");
-	return(0)
+	char chn[] ="_putchar";
+	int c;
+
+	for (c=0; c <= 8; c++)
+		_putchar(chn[c]);
+	_putchar("\n");
+	
+	return 0
 }
