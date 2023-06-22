@@ -5,8 +5,8 @@
 void jack_bauer(void)
 {
 	int min, h;
-	
-	for (h =  0; h <= 23; h++)
+
+	for (h = 0; h <= 23; h++)
 	{
 		for (min = 0; min <= 59; min++)
 		{
@@ -17,5 +17,5 @@ void jack_bauer(void)
 			_putchar((min % 10) + 48);
 			_putchar('\n');
 		}
-	}	
+	}
 }
