@@ -4,7 +4,7 @@
  *
  * @n: take the input input to calculate it abs
  *
- *  Return: 0 always succes 
+ *  Return: 0 always success
  */
 int _abs(int n)
 {
