@@ -2,12 +2,12 @@
 
 /**
  *_atoi - convert a string to an integer
- * @s: the string to be converted 
+ * @s: the string to be converted
  * Return: integer resulty of conversion
  */
 int _atoi(char *s)
 {
-	unsigned int n = 0; 
+	unsigned int n = 0;
 	int sign = 1;
 
 	do {
