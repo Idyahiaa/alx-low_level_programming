@@ -3,7 +3,8 @@
  * _strcat - concatenates two strings
  * @dest: input value
  * @src: input value
- * Return: concatinated string 
+ *
+ * Return: void
  */
 char *_strcat(char *dest, char *src)
 {
